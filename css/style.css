@@ -88,3 +88,12 @@ header .nav-item a:hover::after {
 .grid-posts .card-img-top {
     max-height: 360px;
 }
+
+.load-more {
+    padding: 1rem 2rem;
+    border-color: #626262;
+}
+
+.load-more span {
+    display: none;
+}
