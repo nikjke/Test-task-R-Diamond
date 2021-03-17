@@ -165,6 +165,73 @@ footer {
     margin-left: 20px;
 }
 
+/*projects.html*/
+
+.slick-slider {
+    position: relative;
+}
+
+.slick-slider__item {
+    max-width: 500px;
+    margin: 10px 27px;
+}
+
+.slick-list {
+    overflow: hidden;
+    margin: 10px -9px;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-slider .slick-arrow {
+    position: absolute;
+    top: 94%;
+    z-index: 10;
+    font-size: 0;
+    width: 35px;
+    height: 35px;
+    border: 0;
+}
+
+.slick-slider .slick-arrow.slick-prev {
+    left: 30%;
+    background: url('../img/arrow-prev.svg') 0 0 no-repeat;
+}
+
+.slick-slider .slick-arrow.slick-next {
+    right: 30%;
+    background: url('../img/arrow-next.svg') 0 0 no-repeat;
+}
+
+.slick-slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.slick-slider .slick-dots li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.slick-slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.slick-slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+/*end of projects.html*/
+
 /*кнопка звонка*/
 
 .callback-bt {
