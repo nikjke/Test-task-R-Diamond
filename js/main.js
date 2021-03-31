@@ -25,25 +25,6 @@ $(function() {
 });
 
 $(document).ready(function() {
-    /*$('.slick-slider').slick({
-        dots: true
-    });*/
-    /*$('.slick-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        fade: true,
-        asNavFor: '.slider-nav'
-      });
-      $('.slider-nav').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.slider-for',
-        dots: true,
-        centerMode: true,
-        focusOnSelect: true
-      });*/
-
       $('.slick-slider').slick({
         centerMode: true,
         centerPadding: '60px',
