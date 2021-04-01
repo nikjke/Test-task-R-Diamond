@@ -273,6 +273,42 @@ footer {
     padding: 120px 0;
 }
 
+/* slick-slider3 */
+
+main {
+    overflow: hidden;
+}
+
+.third {
+    position: relative;
+}
+
+.third .slick-slider3 {
+    left: 10%;
+}
+
+.third .slick-list {
+    padding: 0 10% 0 0;
+}
+
+.slick-slider3__item {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.slick-slider3__item:hover {
+    box-shadow: 5px 5px 0 #000000;
+    transition: .3s;
+}
+
+.slick-slider3__item span {
+    display: inline-block;
+    width: 100px;
+    height: 250px;
+    padding: 120px 0;
+}
+
 /*end of projects.html*/
 
 /*кнопка звонка*/

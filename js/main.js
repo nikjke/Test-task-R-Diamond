@@ -80,3 +80,33 @@ $(document).ready(function() {
     ]
   });
 });
+
+$(document).ready(function() {
+  $('.slick-slider3').slick({
+    arrows: false,
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          arrows: false,
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          arrows: false,
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
