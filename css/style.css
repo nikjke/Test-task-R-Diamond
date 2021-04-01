@@ -253,6 +253,26 @@ footer {
     border: 1px solid red;
 }
 
+/* slick-slider2 */
+
+.slick-slider2__item {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.slick-slider2__item:hover {
+    box-shadow: 5px 5px 0 #000000;
+    transition: .3s;
+}
+
+.slick-slider2__item span {
+    display: inline-block;
+    width: 100px;
+    height: 250px;
+    padding: 120px 0;
+}
+
 /*end of projects.html*/
 
 /*кнопка звонка*/
