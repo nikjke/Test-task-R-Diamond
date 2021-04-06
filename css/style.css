@@ -309,6 +309,19 @@ main {
     padding: 120px 0;
 }
 
+/* product_item */
+
+.product_item {
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex: 1; 
+}
+
+.card-body span, .card-body a {
+    //border: 1px solid red;
+} 
+
 /*end of projects.html*/
 
 /*кнопка звонка*/
