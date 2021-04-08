@@ -281,6 +281,19 @@ ul, li {
     padding-left: 0;
 }
 
+.container_slick-slider-4 {
+    //margin-right: 0;
+}
+
+.slick-slider-4 .product[data-slick-index="-2"] {
+    opacity: 0;
+}
+
+.products {
+    margin-top: 20px;
+
+}
+
 .products .product {
     margin-bottom: 20px;
 }
